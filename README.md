@@ -2,7 +2,8 @@
 ## *By Richard Phan*
 
 ### Description
-This repository includes all of my solutions to the problem sets in Harvard's CS50P Python course. Upon completion, I will be upload the certificate as a png in the repository.
+This repository includes all of my solutions to the problem sets in Harvard's CS50P Python course. All code is written and solved by me.
+Upon completion, I will be upload the certificate as a png in the repository.
 
 
 ### Topics Covered
@@ -32,3 +33,4 @@ This repository includes all of my solutions to the problem sets in Harvard's CS
 ### Acknowledgments
 * [Course Page](https://pll.harvard.edu/course/cs50s-introduction-programming-python)
 * [Professor David J. Malan](https://pll.harvard.edu/instructor/david-j-malan)
+
