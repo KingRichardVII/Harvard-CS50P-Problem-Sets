@@ -5,8 +5,10 @@
 
 #function called convert, accept str as parameter
 def convert(input_str):
-    #RETURNS same input with emoticon converted to 🙂 or 🙁
-    return input_str.replace(":),🙂")
+    #chained replace statement
+    modified_str = (input_str.replace(":)", "🙂").replace(":(", "🙁"))
+    return modified_str
+
 #All other text unchanged
 
 #main function
@@ -14,9 +16,8 @@ def main():
     #prompt user for input
     hello_goodbye = input("Enter 'hello :)' or 'goodbye :(' ")
     #calls convert
-    convert(hello_goodbye)
-    #prints result (set return value to a variable. print the variable)
     result = convert(hello_goodbye)
+    #prints result (set return value to a variable. print the variable)
     print(result)
 #call main
 main()
