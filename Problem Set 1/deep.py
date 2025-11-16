@@ -1,6 +1,9 @@
 # Richard Phan
 # 11/15/25
+"""
+Instructions:In deep.py, implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No.
 
+"""
 #GOAL: prompt user for input. Outputs yes if user inputs 42 or forty-two or forty two. otherwise output no.
 
 def main():
@@ -14,4 +17,5 @@ def main():
 
 def great_question(machine_answer):
         print("Yes")
+
 main()
