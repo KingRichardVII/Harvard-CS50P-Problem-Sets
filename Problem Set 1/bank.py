@@ -7,15 +7,15 @@
 
 def main():
     #prompt user for greeting. append .strip() and append .lower()
-    hello = input("Greeting:" )
-    #if elif:
+    greeting = input("Greeting: " ).strip().lower()
 
-    #if greeting == hello, output $0, include the dollar sign
-
-    #elif if greeting starts with h but not hello, output $20
-
-    #else output $100
-
-
-
+    #if starts with hello print $0
+    if greeting.startswith("hello"): #.startswith = "Does the string being with ____"
+        print("$0")
+    #elif starts with "h' print $0
+    elif greeting.startswith("h"):
+        print("$20")
+    # else output $100
+    else:
+        print("$100")
 main()
